@@ -1,0 +1,137 @@
+@font-face{
+    font-family: "dalek";
+    src:url('dalek/DalekPinpointBold.ttf');
+}
+@font-face{
+    font-family:"quicksand";
+    src:url('../YAWHO/quicksand/Quicksand_Bold.otf');
+}
+header{
+    margin-left:20px;
+    padding:10px;
+    font-family:"dalek";
+    font-size:50px;
+    color:rgb(216, 216, 216);
+}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+body{
+    width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #142E38, rgb(13, 53, 90), rgb(2, 99, 134), rgb(48, 70, 73));
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+
+}
+.groupe{
+    position:relative;
+    margin: auto;
+    height:62%;
+    width: 320px;
+    display:flex;
+    padding:20px;
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius:10px;
+    
+}
+input{
+ padding:2%;
+ border-radius: 10px;
+}
+.formulaire{
+    
+    height:62%;
+    width: 80%;
+    float:right;
+    padding-top:22%;
+}
+.emote{
+    text-align:center;
+    padding: 5%;
+    padding-top:40%;
+   
+    height:62%;
+    width: 15%;
+}
+.emote1{
+    width: 100%;
+    height: 13%;
+   
+}
+.emote2{
+    width: 100%;
+    height: 13%;
+    
+}
+.emote3{
+    width: 100%;
+    height: 13%;
+    ;
+}
+.emote4{
+    width: 100%;
+    height: 12%;
+    
+}
+.emote5{
+    width: 100%;
+    height: 13%;
+    
+}
+input{
+    background: linear-gradient(-45deg, #142E38, rgb(13, 53, 90), rgb(2, 99, 134), rgb(48, 70, 73));
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    color:white;
+    font-family:"quicksand";
+}
+.barre{
+    border: 1x solid black;
+    width: 100%;
+    height: 5%;
+}
+.error{
+    color:red;
+    
+    
+}.error ob{
+    font-size: x-small;
+}
